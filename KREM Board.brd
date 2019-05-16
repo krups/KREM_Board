@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -587,7 +587,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="H2" pad="B2,8"/>
 <contactref element="H1" pad="B2,8"/>
 <contactref element="H4" pad="B2,8"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" isolate="0.4064">
 <vertex x="-2.794" y="54.356"/>
 <vertex x="-2.794" y="-2.54"/>
 <vertex x="84.328" y="-2.54"/>
@@ -595,7 +595,7 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="84.328" y="55.88"/>
 <vertex x="-2.794" y="55.88"/>
 </polygon>
-<polygon width="0.1524" layer="16">
+<polygon width="0.1524" layer="16" isolate="0.4064">
 <vertex x="-2.286" y="55.372"/>
 <vertex x="-2.286" y="-2.794"/>
 <vertex x="85.852" y="-2.794"/>
